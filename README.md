@@ -89,6 +89,5 @@ Após a execução, as palavras estarão inseridas na tabela `words` no banco de
 SELECT * FROM words;
 ```
 
-## Contribuição
+## Concluido
 
-Contribuições são bem-vindas! Caso queira melhorar este projeto, basta abrir um **pull request**.
