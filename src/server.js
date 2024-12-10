@@ -1,6 +1,12 @@
-const app = require("./app");
+const express = require("express");
+const app = express();
+const port = 3000;
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+// Defina suas rotas e lógica aqui
+app.get("/", (req, res) => {
+  res.send("Servidor rodando!");
+});
+
+app.listen(port, () => {
+  console.log(`Servidor rodando na porta http://localhost:${port}`);
 });
