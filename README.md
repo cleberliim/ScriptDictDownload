@@ -13,3 +13,9 @@ Este projeto foi desenvolvido como parte de um desafio da **Coodesh**. Ele autom
 - **Node.js**: Para execução do script principal.
 - **MySQL**: Banco de dados utilizado para armazenar as palavras.
 - **Axios**: Para realizar o download do arquivo JSON.
+- **cors**:  Gerencia políticas de compartilhamento de recursos entre origens (CORS).
+- **dotenv**: Lê variáveis de ambiente a partir de um arquivo .env.
+- **express**: criação de APIs e rotas.
+
+- 
+ 
