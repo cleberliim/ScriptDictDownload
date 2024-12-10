@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   res.send("Bem-vindo ao backend do dicionário!");
 });
 
-// Rota para importar palavras (usa o script)
+// Rota para importar palavras
 const importWords = require("./scripts/importWords");
 app.get("/import-words", async (req, res) => {
   try {
