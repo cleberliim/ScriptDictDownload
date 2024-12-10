@@ -1,12 +1,9 @@
-const express = require("express");
-const app = express();
-const port = 3000;
+const app = require("./app"); // Importa as configurações do Express
 
-// Defina suas rotas e lógica aqui
-app.get("/", (req, res) => {
-  res.send("Servidor rodando!");
-});
+// Definindo a porta diretamente no código
+const PORT = 3000; // Ou qualquer outra porta que preferir
 
-app.listen(port, () => {
-  console.log(`Servidor rodando na porta http://localhost:${port}`);
+// Inicia o servidor
+app.listen(PORT, () => {
+  console.log(`Servidor rodando na porta ${PORT}`);
 });
